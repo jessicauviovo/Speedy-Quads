@@ -1,0 +1,159 @@
+body {
+	font-family: 'Jost', sans-serif;
+}
+.left-col1 {
+	background-color: lightblue;
+	float: none;
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.right-col1 {
+	background-color: #0392BF;
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: lightblue;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 16px 32px;
+}
+
+ul li a:hover {
+	color: #ED48BA;
+}
+
+.left-col2 {
+	position: absolute;
+	left: 0;
+	width: 55%;
+	height: 85%;
+	/*background-color: black;*/
+}
+
+.right-col2 {
+	position: absolute;
+	right: 0;
+	width: 45%;
+	height: 85%;
+	/*background-color: red;*/
+}
+
+img.shoe {
+  	max-width: 100%;
+  	height: auto;
+  	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+article {
+	position: absolute;
+	width: 90%;
+	color: #E4E4E4;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+select {
+	fill: none;
+    background: transparent;
+    border: 1px solid lightblue;
+    width: 170px;
+    padding: 5px 5px;
+    margin-left: 20px;
+    color: #B3D4E0;
+}
+
+option {
+	color: #cfcfcf;
+}
+
+.pinkbutton {
+	background-color: #ED48BA;
+	width: 190px;
+	padding: 1px 9px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 60px;
+}
+
+.pinkbutton:hover {
+	opacity: 85%;
+}
+
+#stars {
+	position: relative;
+	left: 170px;
+	bottom: 30px;
+	max-width: 100%;
+  	height: auto;
+}
+
+img {
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+}
+.icons {
+	position: relative;
+	top: 500px;
+}
+
+.blue {
+	background-color: #0392BF;
+}
+
+.pink {
+	background-color: #ED48BA;
+}
+.yellow {
+	background-color: yellow;
+}
+.white {
+	background-color: white;
+}
+.button {
+	padding: 20px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: solid 1px lightblue;
+}
+.button:hover{
+	border: 3px solid white;
+}
+
+#cart {
+	position: relative;
+	left: 400px;
+	top: 25px;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+.button-container {
+	position: relative;
+	bottom: 50px;
+	left: 85px;
+}
