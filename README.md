@@ -1,3 +1,3 @@
 # Speedy-Quads
 
-Nothing is in here yet :) Please check back later.
+Sorry this webpage is not responsive :(
