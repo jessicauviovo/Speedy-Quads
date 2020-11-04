@@ -29,6 +29,7 @@ function changeBackground(color)
 		document.getElementById('cart').src='images/cart1.png';
 		document.getElementByClass('left-col1').style.background = blue;
 		document.getElementsByTagName("LI")[0].style.color = blue;
+		document.getElementsByTagName("SELECT")[0].style.border = '1 px solid black';
 		break;
 	}
 }
