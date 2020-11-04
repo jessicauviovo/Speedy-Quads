@@ -10,6 +10,7 @@ function changeBackground(color)
 		document.getElementById("right-col1").style.background = color;
 		document.getElementsByTagName("ARTICLE")[0].style.color = grey;
 		document.getElementById('shoe').src='images/skate.png';
+		document.getElementById('cart').src='images/cart.png';
 		break;  
 
 		case 'yellow': case 'white':
