@@ -15,6 +15,8 @@ function changeBackground(color)
 		document.getElementById('shoe').src='images/skate.png';
 		document.getElementById('cart').src='images/cart.png';
 		document.getElementById('left-col1').style.background = 'lightblue';
+		document.getElementById('facebook').src='images/facebook.png';
+		document.getElementById('vk').src='images/vk.png';
 		for(i=4; i<9; i++)
 			document.getElementsByTagName("A")[i].style.color = 'lightblue';
 		break;  
@@ -25,6 +27,8 @@ function changeBackground(color)
 		document.getElementById('shoe').src='images/skate2.png';
 		document.getElementById('cart').src='images/cart1.png';
 		document.getElementById('left-col1').style.background = 'lightblue';
+		document.getElementById('facebook').src='images/facebook.png';
+		document.getElementById('vk').src='images/vk.png';
 		for(i=4; i<9; i++)
 			document.getElementsByTagName("A")[i].style.color = 'lightblue';
 		break;
