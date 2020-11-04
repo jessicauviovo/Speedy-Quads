@@ -15,7 +15,7 @@ function changeBackground(color)
 		document.getElementById('cart').src='images/cart.png';
 		break;  
 
-		case 'yellow': case 'grey':
+		case yellow: case grey:
 		document.getElementById("right-col1").style.background = color;
 		document.getElementsByTagName("ARTICLE")[0].style.color = blue;
 		document.getElementById('shoe').src='images/skate2.png';
