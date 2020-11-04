@@ -28,7 +28,7 @@ function changeBackground(color)
 		document.getElementById('shoe').src='images/skate2.png';
 		document.getElementById('cart').src='images/cart1.png';
 		document.getElementByClassName('left-col1').style.background = blue;
-		document.getElementsByTagName("UL")[0].style.color = blue;
+		document.getElementsByTagName("UL")[0].style.color = grey;
 		document.getElementsByTagName("SELECT")[0].style.color = 'black';
 		break;
 	}
