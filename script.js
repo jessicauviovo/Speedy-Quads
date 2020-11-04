@@ -15,11 +15,20 @@ function changeBackground(color)
 		document.getElementById('cart').src='images/cart.png';
 		break;  
 
-		case yellow: case grey:
+		case yellow: 
 		document.getElementById("right-col1").style.background = color;
 		document.getElementsByTagName("ARTICLE")[0].style.color = blue;
 		document.getElementById('shoe').src='images/skate2.png';
 		document.getElementById('cart').src='images/cart1.png';
+		break;
+			
+		case grey:
+		document.getElementById("right-col1").style.background = color;
+		document.getElementsByTagName("ARTICLE")[0].style.color = blue;
+		document.getElementById('shoe').src='images/skate2.png';
+		document.getElementById('cart').src='images/cart1.png';
+		document.getElementByClass('left-col1').style.background = blue;
+		document.getElementsByTagName("LI")[0].style.color = blue;
 		break;
 	}
 }
