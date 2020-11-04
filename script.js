@@ -27,9 +27,9 @@ function changeBackground(color)
 		document.getElementsByTagName("ARTICLE")[0].style.color = blue;
 		document.getElementById('shoe').src='images/skate2.png';
 		document.getElementById('cart').src='images/cart1.png';
-		document.getElementByClass('left-col1').style.background = blue;
-		document.getElementsByTagName("LI")[0].style.color = blue;
-		document.getElementsByTagName("SELECT")[0].style.border = '1 px solid black';
+		document.getElementByClassName('left-col1').style.background = blue;
+		document.getElementsByTagName("UL")[0].style.color = blue;
+		document.getElementsByTagName("SELECT")[0].style.color = 'black';
 		break;
 	}
 }
